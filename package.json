@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "main": "index.html",
-  "homepage": "https://olderfall.github.io/wallet-login",
+  "homepage": "https://game.olderfall.com",
   "scripts": {
     "start": "parcel index.html --open",
     "build": "shx rm -rf dist/* && parcel build ./index.html --public-url /wallet-login --target node --no-source-maps --bundle-node-modules --out-dir ./dist --out-file index.html",
