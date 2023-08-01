@@ -1,5 +1,17 @@
+@font-face {
+  font-family: 'Colus-Regular';
+  src: url('./Colus-Regular.eot'), url('./Colus-Regular.woff') format('truetype'), url('./Colus-Regular.woff2') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 * {
-  font-family: Euclid, sans-serif;
+  font-family: Colus-Regular, sans-serif;
+}
+
+html {
+  background: #091021;
+  color: #FFFFFF;
 }
 
 .center {
