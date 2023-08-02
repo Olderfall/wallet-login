@@ -6,7 +6,7 @@
   "homepage": "https://game.olderfall.com",
   "scripts": {
     "start": "parcel index.html --open",
-    "build": "shx rm -rf dist/* && parcel build ./index.html --public-url /wallet-login --target node --no-source-maps --bundle-node-modules --out-dir ./dist --out-file index.html",
+    "build": "shx rm -rf dist/* && parcel build ./index.html --public-url / --target node --no-source-maps --bundle-node-modules --out-dir ./dist --out-file index.html",
     "push-gh-pages": "push-dir --dir=dist --branch=gh-pages --cleanup --verbose"
   }, 
   "dependencies": {
